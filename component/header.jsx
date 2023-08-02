@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import FagileLogo from '../public/Fa_gile.png';
 
 const Header = () => {
 	const [navOpen, setNavOpen] = useState(false);
@@ -18,7 +19,10 @@ const Header = () => {
 	return(
 		<header className="w-full h-auto">
 			<div id="headerBox" className="flex items-center justify-between md:justify-evenly p-3 font-semibold">
-				<h1 className="text-xl">Fagile</h1>
+				<span className="flex">
+					<img src={FagileLogo} alt="fagile icon logo" width="30px" height="30px"/>
+					<h1 className="text-xl">gile</h1>
+				</span>
 				<nav id="navbar" className="flex">
 					<ul id="menu" className="hidden md:flex flex-col md:flex-row gap-1 text-lg">
 						<li><a href="/" className="p-3">Home</a></li>

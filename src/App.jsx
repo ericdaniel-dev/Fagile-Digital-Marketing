@@ -6,6 +6,7 @@ import Introduction from '../component/introduction.jsx';
 import OurServices from '../component/our-services.jsx';
 import ProductInformation from '../component/product-information.jsx';
 import Faq from '../component/faq.jsx';
+import Benefits from '../component/benefits.jsx';
 import Footer from '../component/footer.jsx';
 
 function App() {
@@ -13,11 +14,12 @@ function App() {
     <>
       <div id="container" className="w-full min-h-screen flex flex-col items-center gap-2 bg-pink-100 bg-opacity-50">
         <Header></Header>
-        <main className="border-2 border-red-200 p-1 w-full gap-5">
+        <main className="border-2 border-red-200 p-1 w-full gap-10">
           <Introduction/>
           <OurServices/>
           <ProductInformation/>
           <Faq/>
+          <Benefits/>
         </main>
         <Footer></Footer>
       </div>

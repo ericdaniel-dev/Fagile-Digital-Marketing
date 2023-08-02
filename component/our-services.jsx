@@ -23,11 +23,11 @@ function OurServices(){
 ];
 
 	return(
-		<section id="ourservices" className="w-full h-auto flex items-center justify-center bg-white">
+		<section id="ourservices" className="w-full h-auto flex items-center justify-center bg-white order-2">
 			<div id="ourservicesBox" className="w-4/5 flex flex-col items-center justify-center gap-3 p-3">
 				<h2 className="text-xl font-semibold text-pink-500">Our Services</h2>
 				<h3 className="text-2xl">We Are Pro Digital Marketer</h3>
-				<div id="servicelist" className="flex flex-col md:flex-row gap-x-5 gap-y-2">
+				<div id="servicelist" className="flex flex-col lg:flex-row gap-x-5 gap-y-2">
 					{dataServices.map((service, index) => (
 						<ServiceCard 
 							key={index}
