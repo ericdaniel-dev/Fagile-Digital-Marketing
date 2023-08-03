@@ -9,14 +9,11 @@ consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 			</div>
-			<div class="text-center mt-20">
-    <h1 class="text-4xl font-bold inline-block relative group">
-      <span class="relative">
-        Hover Me
-        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-500 transition-all duration-300 group-hover:w-full"></span>
-      </span>
-    </h1>
-  </div>
+			<div class="text-center mt-20 group">
+				<h1 className="group-hover:underline">Test</h1>
+      </div>
+			<br/>
+			<br/>
 		</footer>
 		)
 }

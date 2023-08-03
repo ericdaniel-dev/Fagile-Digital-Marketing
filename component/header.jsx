@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import FagileLogo from '../public/Fa_gile.png';
+import FagileLogo from '../src/assets/Fa_gile.png';
 
 const Header = () => {
 	const [navOpen, setNavOpen] = useState(false);
@@ -24,16 +24,16 @@ const Header = () => {
 					<h1 className="text-xl">gile</h1>
 				</span>
 				<nav id="navbar" className="flex">
-					<ul id="menu" className="hidden md:flex flex-col md:flex-row gap-1 text-lg">
-						<li><a href="/" className="p-3">Home</a></li>
-						<li><a href="#ourservices" className="p-3">Services</a></li>
-						<li><a href="#productinformation" className="p-3">About Us</a></li>
-						<li><a href="#" className="p-3">Company</a></li>
-						<li><a href="#" className="p-3">Contact Us</a></li>
+					<ul id="menu" className="hidden md:flex flex-col md:flex-row gap-2 text-lg">
+						<li><a href="/" className="p-1 hover:border-b-2 hover:border-cyan-400">Home</a></li>
+						<li><a href="#ourservices" className="p-1 hover:border-b-2 hover:border-cyan-400">Services</a></li>
+						<li><a href="#productinformation" className="p-1 hover:border-b-2 hover:border-cyan-400">About Us</a></li>
+						<li><a href="#" className="p-1 hover:border-b-2 hover:border-cyan-400">Company</a></li>
+						<li><a href="#" className="p-1 hover:border-b-2 hover:border-cyan-400">Contact Us</a></li>
 					</ul>
 					<button id="toogle" onClick={toogle} className="inline-block md:hidden border-2 p-2">=</button>
 				</nav>
-				<button className="text-lg hidden md:inline-block p-3 bg-blue-700 text-white rounded-md">Get Started</button>
+				<button className="text-lg hidden md:inline-block p-3 bg-blue-500 hover:bg-blue-700 text-white rounded-md">Get Started</button>
 			</div>
 		</header>
 		);
