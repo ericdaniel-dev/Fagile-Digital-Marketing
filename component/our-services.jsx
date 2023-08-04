@@ -1,7 +1,7 @@
 import ServiceCard from './atoms/service-card.jsx';
-import SEOicon from '../src/assets/SEO Icon.svg';
-import ContentIcon from '../src/assets/Content Writer Icon.svg';
-import SocialIcon from '../src/assets/Social Marketing.svg';
+import SEOicon from '@/src/assets/SEO Icon.svg';
+import ContentIcon from '@/src/assets/Content Writer Icon.svg';
+import SocialIcon from '@/src/assets/Social Marketing.svg';
 
 function OurServices(){
 	const dataServices = [
