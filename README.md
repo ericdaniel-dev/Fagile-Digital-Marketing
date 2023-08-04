@@ -1,4 +1,4 @@
-![logo](./Fagile Website.jpeg)
+![Preview](./public/Fagile Samples.jpg)
 
 # Fagile Digital Marketing Landing Page
 Fagile is company profile website that run on digital marketing service. This Website build with ReactJS and TailwindCSS.
