@@ -13,4 +13,5 @@ This website have:
 - contact
 
 # Live Preview
-soon
+If you want to see the live preview, visit this url:
+https://fagile-digital-marketing.vercel.app/
