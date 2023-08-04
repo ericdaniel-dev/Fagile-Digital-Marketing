@@ -1,7 +1,4 @@
 import ServiceCard from './atoms/service-card.jsx';
-import SEOicon from '@/src/assets/SEO Icon.svg';
-import ContentIcon from '@/src/assets/Content Writer Icon.svg';
-import SocialIcon from '@/src/assets/Social Marketing.svg';
 
 function OurServices(){
 	const dataServices = [
@@ -10,7 +7,7 @@ function OurServices(){
     title: 'Search Engine Optimization (SEO)',
     description: `Boost your Website's visibility and gain more traffics with our expert keyword researcher.`,
     background: 'bg-cyan-100',
-    icon: SEOicon,
+    icon: './icons/SEO icon.svg',
     iconbackground: 'bg-cyan-300'
   },
   {
@@ -18,7 +15,7 @@ function OurServices(){
     title: 'Content Writer',
     description: `Worried about customer lost? Our talented team of skilled writers is ready to craft engaging and informative content to your unique needs and target audience.`,
     background: 'bg-pink-200',
-    icon: ContentIcon,
+    icon: './icons/Content Writer Icon.svg',
     iconbackground: 'bg-pink-400',
   },
   {
@@ -26,7 +23,7 @@ function OurServices(){
     title: 'Social Media Marketing',
     description: `Harness the power of social media with our expert team, we'll create posts that sparks interest and drive meaningful interactions`,
     background: 'bg-blue-200',
-    icon: SocialIcon,
+    icon: './icons/Social Marketing.svg',
     iconbackground: 'bg-blue-400',
   },
 ];
