@@ -1,19 +1,23 @@
+import SocialMedia from './social-media.jsx';
+
 function Footer(){
 	return(
-		<footer className="w-full h-auto">
-			<div id="footerBox" className="p-3 text-lg">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		<footer className="mt-10 border-2 bg-black text-white w-full h-auto p-5 flex items-center justify-center">
+			<div id="footerBox" className="flex flex-col items-center gap-5">
+				<h5 className="text-xl font-semibold">Fagile Digital Marketing - Empowering Digital Growth!</h5>
+				<p className="w-1/2">
+					At Fagile, we are passionate about propelling businesses 
+					into the digital age and driving unprecedented growth 
+					through strategic and innovative digital marketing 
+					solutions. As a leading digital marketing agency, we 
+					understand that in today's fast-paced world, staying 
+					ahead of the competition requires embracing the power of 
+					the online realm.
+				</p>
+				<SocialMedia/>
+				<hr/>
+				<span>Copyrights - Fagile Digital Marketing</span>
 			</div>
-			<div class="text-center mt-20 group">
-				<h1 className="group-hover:underline">Test</h1>
-      </div>
-			<br/>
-			<br/>
 		</footer>
 		)
 }

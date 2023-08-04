@@ -12,9 +12,9 @@ import Footer from '../component/footer.jsx';
 function App() {
   return (
     <>
-      <div id="container" className="w-full min-h-screen flex flex-col items-center gap-2 bg-pink-100 bg-opacity-50">
+      <div id="container" className="font-poppins w-full min-h-screen flex flex-col items-center gap-2 bg-pink-100 bg-opacity-50">
         <Header></Header>
-        <main className="border-2 border-red-200 p-1 w-full gap-10">
+        <main className="border-2 border-red-200 p-1 w-full gap-5">
           <Introduction/>
           <OurServices/>
           <ProductInformation/>

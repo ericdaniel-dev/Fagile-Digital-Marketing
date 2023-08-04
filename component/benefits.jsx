@@ -31,7 +31,7 @@ function Benefits(){
 	return(
 		<section id="benefits" className="w-full h-auto flex items-center justify-center bg-white p-3 order-5">
 			<div id="benefitsBox" className="w-full md:w-4/5 flex flex-col items-center justify-center gap-3">
-				<h2 className="text-lg md:text-xl font-semibold text-pink-500">Project Benefits</h2>
+				<h2 id="company" className="text-lg md:text-xl font-semibold text-pink-500">Project Benefits</h2>
 				<h3 className="w-1/3 text-center text-2xl md:text-3xl font-semibold">Complete the Project Faster With Us</h3>
 				<p className="text-justify w-3/4">
 					Accelerated Project Delivery: At Fagile Digital Marketing, 
@@ -40,7 +40,7 @@ function Benefits(){
 					results in record time, ensuring your projects are 
 					completed faster than you ever thought possible.
 				</p>
-				<div id="benefitsList" className="flex flex-col lg:flex-row gap-3">
+				<div id="benefitsList" className="flex flex-col lg:flex-row gap-3 items-center">
 					{dataBenefits.map((benefit, index) => (
 						<BenefitCard
 							key={benefit.id}

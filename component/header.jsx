@@ -28,8 +28,8 @@ const Header = () => {
 						<li><a href="/" className="p-1 hover:border-b-2 hover:border-cyan-400">Home</a></li>
 						<li><a href="#ourservices" className="p-1 hover:border-b-2 hover:border-cyan-400">Services</a></li>
 						<li><a href="#productinformation" className="p-1 hover:border-b-2 hover:border-cyan-400">About Us</a></li>
-						<li><a href="#" className="p-1 hover:border-b-2 hover:border-cyan-400">Company</a></li>
-						<li><a href="#" className="p-1 hover:border-b-2 hover:border-cyan-400">Contact Us</a></li>
+						<li><a href="#company" className="p-1 hover:border-b-2 hover:border-cyan-400">Company</a></li>
+						<li><a href="#footerBox" className="p-1 hover:border-b-2 hover:border-cyan-400">Contact Us</a></li>
 					</ul>
 					<button id="toogle" onClick={toogle} className="inline-block md:hidden border-2 p-2">=</button>
 				</nav>
